@@ -39,15 +39,15 @@ public class SettingActivity extends WfcBaseActivity {
         super.bindEvents();
         findViewById(R.id.exitOptionItemView).setOnClickListener(v -> exit());
         findViewById(R.id.privacySettingOptionItemView).setOnClickListener(v -> privacySetting());
-        findViewById(R.id.diagnoseOptionItemView).setOnClickListener(v -> diagnose());
+//        findViewById(R.id.diagnoseOptionItemView).setOnClickListener(v -> diagnose());
         findViewById(R.id.uploadLogOptionItemView).setOnClickListener(v -> uploadLog());
         findViewById(R.id.batteryOptionItemView).setOnClickListener(v -> batteryOptimize());
-        findViewById(R.id.aboutOptionItemView).setOnClickListener(v -> about());
+//        findViewById(R.id.aboutOptionItemView).setOnClickListener(v -> about());
     }
 
     protected void bindViews() {
         super.bindViews();
-        diagnoseOptionItemView = findViewById(R.id.diagnoseOptionItemView);
+//        diagnoseOptionItemView = findViewById(R.id.diagnoseOptionItemView);
     }
 
     @Override

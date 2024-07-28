@@ -56,7 +56,7 @@ public class DiscoveryFragment extends Fragment {
         view.findViewById(R.id.chatRoomOptionItemView).setOnClickListener(v -> chatRoom());
         view.findViewById(R.id.robotOptionItemView).setOnClickListener(v -> robot());
         view.findViewById(R.id.channelOptionItemView).setOnClickListener(v -> channel());
-        view.findViewById(R.id.cookbookOptionItemView).setOnClickListener(v -> cookbook());
+//        view.findViewById(R.id.cookbookOptionItemView).setOnClickListener(v -> cookbook());
         view.findViewById(R.id.momentOptionItemView).setOnClickListener(v -> moment());
         view.findViewById(R.id.conferenceOptionItemView).setOnClickListener(v -> conference());
     }
