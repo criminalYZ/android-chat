@@ -246,7 +246,7 @@ public class UserInfoFragment extends Fragment {
         } else {
             groupAliasTextView.setVisibility(View.GONE);
         }
-        accountTextView.setText("野火ID:" + userInfo.name);
+        accountTextView.setText("JOB_ID:" + userInfo.name);
     }
 
     void chat() {

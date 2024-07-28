@@ -62,12 +62,12 @@ public class Config {
      * <p>
      * 如果不想显示工作台，置为 null 即可
      */
-    public static String WORKSPACE_URL = "https://open.wildfirechat.cn/work.html";
+    public static String WORKSPACE_URL = null;//"https://open.wildfirechat.cn/work.html";
 
     /**
      * 组织通讯录服务地址，如果没有部署，可以设置为null
      */
-    public static String ORG_SERVER_ADDRESS/*请仔细阅读上面的注释*/ = "https://org.wildfirechat.cn";
+    public static String ORG_SERVER_ADDRESS/*请仔细阅读上面的注释*/ = null;//"https://org.wildfirechat.cn";
 
     /**
      * 发送日志命令，当发送此文本消息时，会把协议栈日志发送到当前会话中，为空时关闭此功能。
